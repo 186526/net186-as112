@@ -1,0 +1,95 @@
+(snip) {
+    chaos "CoreDNS MoeIX AS112"
+    log
+    errors
+    bind ::
+    bind 0.0.0.0
+}
+blackhole.as112.arpa {
+    file /etc/coredns/db.blackhole
+    import snip
+}
+10.in-addr-arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+16.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+17.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+18.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+19.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+20.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+21.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+22.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+23.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+24.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+25.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+26.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+27.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+28.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+29.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+30.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+31.172.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+168.192.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+254.169.in-addr.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+home.arpa {
+    file /etc/coredns/db.prisoner
+    import snip
+}
+hostname.as112.net, hostname.as112.arpa {
+    file /etc/coredns/db.hostname
+    import snip
+}
