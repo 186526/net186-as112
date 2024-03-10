@@ -1,6 +1,6 @@
 $TTL    604800
 ;
-@       IN  SOA     us-sea-moeix.186526.net. noc.186526.xyz. (
+@       IN  SOA     %NOC (
                        1                ; serial number
                        604800           ; refresh
                        60               ; retry
@@ -10,8 +10,5 @@ $TTL    604800
             NS      blackhole-1.iana.org.
             NS      blackhole-2.iana.org.
 ;
-            TXT     "AS112 Server, Operated by 186526 Network (AS200536) and MoeQing Network (AS
-200105)"
-            TXT     "in MoeIX SEA, Seattle, Washington, USA."
-            TXT     "IPv6 only, Unicast: 2a0a:6040:5302:8fff::147"
-            TXT     "See http://www.as112.net/ for more information."
+            TXT     "%INFO"
+            TXT     "See https://www.as112.net/ for more information."

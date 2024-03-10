@@ -1,5 +1,5 @@
 (snip) {
-    chaos "CoreDNS MoeIX AS112"
+    chaos "CoreDNS AS112 (github.com/186526/net186-as112)"
     log
     errors
     bind ::
